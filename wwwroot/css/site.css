@@ -1,0 +1,82 @@
+﻿/* App-Owns-Data Lab Styles from Power BI Dev Camp */
+
+
+.navbar-brand {
+  border: 1px solid FEFEFE;
+  padding: 2px;
+  padding-left: 8px;
+  padding-right: 8px;
+  margin: 0px;
+  font-size: 1.25em;
+  font-weight: bold;
+  font-family: 'Lucida Console';
+  line-height: 1.0em;
+}
+
+
+#content-box {
+  padding-left: 0;
+  padding-right: 0;
+  border: solid 1px #CCCCCC;
+}
+
+
+#embed-toolbar .nav-item a.nav-link {
+  background-color: #E0E0E0;
+  opacity: 0.75;
+  border-radius: 8px;
+  min-width: 64px;
+  padding: 4px;
+  padding-left: 6px;
+  padding-right: 6px;
+  text-align: center;
+  font-size: 0.7em;
+  font-weight: bold;
+  margin: 0px;
+  margin-left: 8px;
+}
+
+#embed-toolbar .nav-item a.nav-link:hover {
+  background-color: lightsalmon;
+}
+
+
+#embed-container {
+  min-height: 480px;
+  height: 600px;
+}
+
+#notification {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  z-index: 105;
+  text-align: center;
+  font-weight: normal;
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+  background-color: #FF7800;
+  padding: 5px;
+}
+
+  #notification span.dismiss {
+    border: 2px solid #FFF;
+    padding: 0 5px;
+    cursor: pointer;
+    float: right;
+    margin-right: 10px;
+  }
+
+  #notification a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold
+  }
+
+
+
+#embed-toolbar .nav-item {
+}
+
+
